@@ -11,18 +11,59 @@
             padding: 0;
 
         }
-        /* Start menu  */
         body{
-            background-color: rgb(250, 221, 175);
-           
+            background-color: black;
         }
+        /* strart nav  */
+        .nav_item a{
+            display:block; 
+            border: 2px solid rgb(29, 25, 25);
+            border-radius: 20px;
+            background-color: white;
+            padding: 7px 30px;
+            color: rgba(92, 14, 14, 0.918);
+            font-size: xx-large;
+            margin-bottom: 40px;
+            text-decoration: none;
+            margin-left: 650px;
+            text-align: center;
+            margin-top: 75px;
+            
+        }
+        .time_text{
+            position: absolute;
+            left: 30px;
+            top: 50px;
+            color: white;
+            font-size: large;
+            color: rgba(240, 224, 224, 0.904);
+        }
+        .nav_item a:hover{
+            color: gray;
+            padding: 2px; 
+        }
+        .nav{
+            position: absolute;
+            top: 60px;
+            left: 390px;
+        }
+        .nav_media{
+            position: absolute;
+            left: 1100px;
+            top: 50px;
+            font-size: large;
+            color: white;
+        }
+        /* Start menu  */
 
         h1{
-            font-size:45px;
+            font-size:60px;
             font-weight: bold;
-            color: rgba(240, 224, 224, 0.904);
+            color: rgba(248, 247, 230, 0.904);
             text-align: center;
-            margin-bottom: 30px;
+            margin-top: 100px;
+            position: absolute;
+            margin-left: 410px;
         }
         h3{
             font-size: 30px;
@@ -47,9 +88,11 @@
             padding: 20px;
             display: inline-block;   
             border-width: 2px;
-            margin-left: 150px;
+            margin-left: 80px;
             padding: 25px;
             position: absolute;
+            margin-top: 200px;
+            background-color: rgb(250, 221, 175);
         }
         
         .coffee_name{
@@ -65,14 +108,15 @@
         .coffee_price{
             font-size: small;
         }
-
         .food{
             position: absolute;
-            top: 93px;
-            left:620px;
-            display: inline-block;
+            top: 200px;
+            left:500px;
+            display: block;
+            
         }
         .food_type{
+            background-color: rgb(250, 221, 175);
             border: 1px solid rgba(92, 14, 14, 0.918);
             border-radius: 20px;
             padding: 20px;
@@ -80,135 +124,327 @@
             border-width: 2px;
             margin-left: 20px;
             padding: 25px;
-            margin-top: 33px;
+            margin-top: 10pxpx;
+            
         }
         .bg_img{
-            position: fixed;
             position: absolute;
+        }
+        /* end menu  */
+        /* start subscribe  */
+        .subscribe_img{
             width: 100%;
-            height: 180%;
+            opacity: 80%;
+            margin-top: 1080px;
         }
 
+        .subscribe{
+            position: absolute;
+            top: 1398px;
+            left: 450px;
+            color: white;
+            font-size: xx-large;
+            
+        }
+        .subscribe_input{
+            border: 1px solid  rgb(250, 221, 175);;
+            padding: 30px 110px ;
+            border-radius: 30px 0px 0px 30px;
+            background-color: rgb(250, 221, 175);
+            outline: none;
+            font-size: large;
         
+        }
+
+        .subscribe_btn{
+            position: absolute;
+            top: 1454px;
+            left: 850px;
+        }
+        
+        .subscribe_tag{
+            padding: 33px 20px ;
+            border-radius: 0px 30px 30px 0px ;
+            background-color:rgb(139, 85, 40);
+            color:rgba(240, 224, 224, 0.904) ;
+            border: 1px solid  rgb(139, 85, 40);
+            text-decoration: none;
+            margin-left: 0;
+
+        }
+        .subscribe p{
+            font-size: large;
+            color: rgba(56, 55, 55, 0.904);
+        }
+        a:hover{
+            color: black;
+            background-color:rgba(240, 224, 224, 0.904); 
+        }
+        .subscribe_text{
+            position: absolute;
+            top: 1150px;
+            margin-left: 400px;
+            color: white
+        }
+        .subscribe_text h1{
+            font-size: 50px;
+            color: rgba(247, 244, 200, 0.904);
+            display: inline;
+        }
+
+        .subscribe p{
+            font-size: 20px;
+            color:rgba(247, 244, 200, 0.904) ;
+        }
+
+         /* end subscribe */
+
+    .footer_p{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-bottom: 110px;
+        margin-left: 200px;
+        margin-right: 200px;
+        border: 1px solid rgba(156, 95, 54, 0.795);
+        border-radius: 10px;
+        padding: 30px 40px;
+        margin-top: 100px;
+        opacity: 100%;   
+        background-color: rgba(156, 95, 54, 0.795); 
+
+    }
+    .footer_p1{
+        color:rgba(56, 55, 55, 0.904) ;
+        margin-left: 100px;
+        font-size: large;
+        margin-top: 30px;
+        color: bisque;
+    
+        
+    }
+    .footer_cafe_name{
+        font-size: 30px;
+        margin-bottom: 30px;
+    margin-left: 80px;
+    }
+
+    .footer_nav_item a{
+        text-decoration: none;
+        margin-left: 30px;
+        color: bisque;
+    }
+    .footer_nav_item a:hover{
+        color: brown;
+
+    }
+    .footer_social_icon a {
+        color:rgba(56, 55, 55, 0.904) ;
+        margin-left: 40px;
+        color: bisque;
+        outline: none;
+    }
+    .footer_social_icon a:hover{
+        width: 20px;
+        color: white;
+    }
+
+    .footer_social_icon {
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    .footer_p2{
+        color:rgba(56, 55, 55, 0.904) ;
+        margin-top: 50px;
+        font-size: large;
+        margin-right: 70px;
+        color: bisque;
+    
+        
+    }
+    .footer_p2 p{
+        margin-bottom: 20px;
+    }
+    .footer_img{
+        width: 100%;
+        position: absolute;
+        top: 1750px;
+        opacity: 8%;
+    }
+    .footer_end{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footer_end a{
+        text-decoration: none;
+        color: antiquewhite;
+    }
+    .footer_end a:hover{
+        color: black;
+    }
+    /* end footer  */
+
+
+       
          
     </style>
 </head>
 <body>
-    <!-- <img src="images/bg_2.avif" alt="" class="bg_img"> -->
-    <h1>MENU</h1>
+
+    <div>
+        <img src="images/bg4.jpg" class="bg_img" alt="" width="100%">
+    </div>
+
+    <div class="nav">
+        <nav class="nav_item">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="">About us</a>
+            <a href="">Contact us</a>
+        </nav>
+    </div>
+    <div class="time_text">
+        <p>
+            <i class="fa-regular fa-clock"></i> Open Daliy 6:00 AM- 8:00 PM
+        </p>
+    </div>
+    
+    <div class="nav_media">
+        <p>
+            <i class="fa-solid fa-phone"></i> 09406327773 &nbsp;&nbsp;
+            <i class="fa-brands fa-facebook"></i>&nbsp;&nbsp;
+            <i class="fa-brands fa-instagram"></i>
+        </p>
+
+    </div>
+    
+    <h1> Our Menu</h1>
     <div class="food">
-        <div class="menu_img">
-            <img src="images/muffin.jpg" alt="" width="170px" height="150px" >
-            <img src="images/menu_chocalate cake_img.jpg" alt="" width="155px" height="150px">
-            <img src="images/menu_food_img.jpg" alt="" width="150px" height="150px">
-        </div>
         <div class="food_type">
             <h3>Food</h3>
     
             <!-- coffee  -->
     
-            <h4>COFFEE <i class="fa-solid fa-mug-hot"></i></h4>
+            <h4>CAKE <i class="fa-solid fa-cheese"></i></h4>
             
             <div class="name_price">
-                <p class="coffee_name">Americano</p>
+                <p class="coffee_name">Cheese Cake</p>
+                <p class="coffee_price">5500 MMK</p>
+            </div>
+            <div class="name_price">
+                <p class="coffee_name">Chocolate Truffle Cake</p>
                 <p class="coffee_price">8000 MMK</p>
             </div>
             <div class="name_price">
-                <p class="coffee_name">Double Espresso</p>
-                <p class="coffee_price">9000 MMK</p>
+                <p class="coffee_name">Rasmalai Cake</p>
+                <p class="coffee_price">9500 MMK </p>
             </div>
             <div class="name_price">
-                <p class="coffee_name">Cappucino</p>
-                <p class="coffee_price">11500 MMK </p>
-            </div>
-            <div class="name_price">
-                <p class="coffee_name">Latte</p>
+                <p class="coffee_name">Caramel Cake</p>
                 <p class="coffee_price">10500 MMK </p>
             </div>
             <div class="name_price">
-                <p class="coffee_name">Mint Chocolate</p>
+                <p class="coffee_name">Swiss Chocolate Cake</p>
                 <p class="coffee_price">8500 MMK </p>
             </div>
             <div class="name_price">
-                <p class="coffee_name">Macchiato</p>
+                <p class="coffee_name">Strawberry Cake</p>
                 <p class="coffee_price">9000 MMK </p>
             </div>
             <div class="name_price">
-                <p class="coffee_name">Mocha</p>
+                <p class="coffee_name">Butter Scotch Cake</p>
                 <p class="coffee_price">12500 MMK </p>
             </div>
+
             <div class="name_price">
-                <p class="coffee_name">Blue Mountain Coffee</p>
+                <p class="coffee_name">Choco Cake</p>
                 <p class="coffee_price">11000 MMK </p>
             </div>
             <div class="name_price">
-                <p class="coffee_name">Black coffee</p>
-                <p class="coffee_price">8000 MMK </p>
+                <p class="coffee_name">Pineapple Delight Cake</p>
+                <p class="coffee_price">89000 MMK </p>
             </div>
             
             <div class="name_price">
-                <p class="coffee_name">Double Espresso</p>
+                <p class="coffee_name">Black Forest Cake</p>
                 <p class="coffee_price">9000 MMK</p>
             </div>
             <div class="name_price">
-                <p class="coffee_name">Cappucino</p>
+                <p class="coffee_name">Mix Fruit Cake</p>
                 <p class="coffee_price">11500 MMK </p>
             </div>
             <div class="name_price">
-                <p class="coffee_name">Latte</p>
+                <p class="coffee_name">Choco Chips Cake</p>
                 <p class="coffee_price">10500 MMK </p>
             </div>
             <div class="name_price">
-                <p class="coffee_name">Americano</p>
+                <p class="coffee_name">Exotic Forest Cake</p>
                 <p class="coffee_price">8000 MMK</p>
             </div>
-            
+            <br>
+            <h4>SNACKS <i class="fa-solid fa-pizza-slice"></i></h4>
+
             <div class="name_price">
-                <p class="coffee_name">Cappucino</p>
-                <p class="coffee_price">11500 MMK </p>
+                <p class="coffee_name">Pizza</p>
+                <p class="coffee_price">9500 MMK </p>
             </div>
             <div class="name_price">
-                <p class="coffee_name">Latte</p>
+                <p class="coffee_name">French Fries</p>
                 <p class="coffee_price">10500 MMK </p>
             </div>
             <div class="name_price">
-                <p class="coffee_name">Americano</p>
+                <p class="coffee_name">Noddle soup</p>
+                <p class="coffee_price">9500 MMK </p>
+            </div>
+            <div class="name_price">
+                <p class="coffee_name">Spicy chicken</p>
                 <p class="coffee_price">8000 MMK</p>
             </div>
             <div class="name_price">
-                <p class="coffee_name">Double Espresso</p>
+                <p class="coffee_name">Hot dog</p>
                 <p class="coffee_price">9000 MMK</p>
             </div>
             <div class="name_price">
-                <p class="coffee_name">Cappucino</p>
+                <p class="coffee_name">Sandwich</p>
                 <p class="coffee_price">11500 MMK </p>
             </div>
             <div class="name_price">
-                <p class="coffee_name">Latte</p>
+                <p class="coffee_name">Chicken Pie</p>
                 <p class="coffee_price">10500 MMK </p>
             </div>
             <div class="name_price">
-                <p class="coffee_name">Americano</p>
+                <p class="coffee_name">Fried Rice</p>
                 <p class="coffee_price">8000 MMK</p>
             </div>
+            <br>
+            <h4>BURGER <i class="fa-solid fa-burger"></i></h4>
             <div class="name_price">
-                <p class="coffee_name">Double Espresso</p>
+                <p class="coffee_name">Cheese Burger</p>
                 <p class="coffee_price">9000 MMK</p>
             </div>
             <div class="name_price">
-                <p class="coffee_name">Cappucino</p>
+                <p class="coffee_name">Spicy Chilli Lava Burger</p>
                 <p class="coffee_price">11500 MMK </p>
             </div>
             <div class="name_price">
-                <p class="coffee_name">Latte</p>
+                <p class="coffee_name">Chicken Burger</p>
+                <p class="coffee_price">10500 MMK </p>
+            </div>
+            <div class="name_price">
+                <p class="coffee_name">Wild patato Burger</p>
+                <p class="coffee_price">9000 MMK</p>
+            </div>
+            <div class="name_price">
+                <p class="coffee_name">Cheesy Mushroom Burger</p>
+                <p class="coffee_price">11500 MMK </p>
+            </div>
+            <div class="name_price">
+                <p class="coffee_name">Cruchy Paneer Burger</p>
                 <p class="coffee_price">10500 MMK </p>
             </div>
            
 
         </div>
-        
     </div>
-    
    
     <div class="coffee_type">
         <h3>Drinks</h3>
@@ -337,8 +573,52 @@
         </div>
         
     </div>
-    
-    
+    <img src="images/bg3.jpg" alt="" class="subscribe_img">
+
+        <h1  class="subscribe_text">Get The latest Update</h1>
+
+    <div class="input_email">
+        <div class="subscribe">
+            <p>Enter your email adress*</p>
+            <input type="text" name="" id="" class="subscribe_input" placeholder="example@gamil.com">
+        </div>
+        <div class="subscribe_btn">
+            <a href="" class="subscribe_tag">Subscribe</a>
+        </div>
+    </div> 
+    <!-- start footer -->
+      <footer>
+        <div class="footer_p">
+            <div class="footer_p1">
+                <h1 class="footer_cafe_name"> <i>Buzz Cafe</i> <i class="fa-solid fa-house"></i></h1>
+                <div class="footer_nav_item">
+                    <a href="index.html">Home</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="">About us</a>
+                    <a href="">Contact us</a>
+                </div>
+                <div class="footer_social_icon">
+                    <a href="https://google.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer_p2">
+                <p><i class="fa-solid fa-location-dot"></i> &nbsp; Yangon,Myanmar</p>
+                <p><i class="fa-solid fa-phone"></i> &nbsp; 09406327773</p>
+                <p><i class="fa-solid fa-envelope"></i> &nbsp; BuzzCafe@gamil.com</p>
+
+            </div>
+        </div>
+        <!-- <img src="images/footer final.jpg" alt="" class="footer_img"> -->
+        <p style="color: antiquewhite;">-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+        <p class="footer_end" style="color: antiquewhite;">
+            <a target="_blank" href="https://buzzcafe.netlify.app/">buzzcafe.netlify.app </a> &copy;All right reserved|Make with &hearts;
+            <br>By Our Team
+        </p>
+
+      </footer>
+   
 
     
 
