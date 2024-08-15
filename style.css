@@ -16,6 +16,8 @@ body{
 }
 
 /* start nav  */
+
+
 .nav_item a{
     display:block; 
     border: 2px solid rgb(29, 25, 25);
@@ -253,7 +255,7 @@ a:hover{
 }
 .footer_social_icon a:hover{
     width: 20px;
-    color: white;
+    color: rgb(71, 48, 17);
 }
 
 .footer_social_icon {
@@ -283,4 +285,75 @@ a:hover{
     margin-top: 20px;
 }
 /* end footer  */
+/* start about  */
 
+.divided_footer{
+    width: 80px;
+    border: 1px solid rgba(252, 224, 206, 0.795);
+    margin-bottom: 10px;
+    margin-top: 15px;
+   margin-left: 200px;
+}
+.story_text{
+    letter-spacing: 1px;
+    font-family: 'my_font'; 
+    color: rgba(211, 178, 155, 0.795);
+    /* font-weight: bolder; */
+}
+.divided{
+    width: 280px;
+    border: 1px solid rgb(233, 219, 219);
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.aboutimg{
+    margin-top: 260px;
+   width: 100%;
+}
+.expect_text h1{
+    font-size: 40px;
+}
+.expect_text{
+    color: rgb(233, 219, 219) ;
+    position: absolute;
+    top: 650px;
+    background-color: rgb(109, 77, 35) ;
+    border: 1px solid rgb(109, 77, 35) ;
+    padding: 90px;
+    line-height: 30px;
+    font-family: "my_font";
+}
+.title_text{
+    color:  rgba(92, 14, 14, 0.918);
+    position: absolute;
+    top: 1100px;
+    margin-left: 400px;
+}
+.title_text h1{
+    font-size: 50px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+.title_text{
+    font-size: larger;
+}
+.about_p3{
+    color: rgba(92, 14, 14, 0.918);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: absolute;
+    top: 1550px;
+    margin: 90px;
+    margin-left: 200px;
+}
+.text1{
+    margin: 40px;
+}
+.text1 h1{
+    text-align: center;
+}
+.text1 p{
+    margin-top: 20px;
+    line-height: 30px;
+}
